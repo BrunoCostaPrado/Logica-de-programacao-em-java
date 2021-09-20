@@ -1,0 +1,13 @@
+var totalEleit = parseInt(prompt("Digite o total de eleitores"));
+var votosB = parseInt(prompt("Digite o número de votos brancos"));
+var votosN = parseInt(prompt("Digite o número de votos nulos"));
+var votosV = parseInt(prompt("Digite o número de votos válidos"));
+var percVb;
+var percVn;
+var percVv;
+percVb = votosB * 100 / totalEleit;
+percVn = votosN * 100 / totalEleit;
+percVv = votosV * 100 / totalEleit;
+alert("A porcentagem de votos brancos é de : " + percVb + " % ");
+alert("A porcentagem de votos nulos é de : " + percVn + " % ");
+alert("A porcentagem de votos válidos é de : " + percVv + " % ");
